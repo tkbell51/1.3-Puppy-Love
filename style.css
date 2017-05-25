@@ -10,12 +10,14 @@ colors:
     yellow - #ffd24a
     orange - #ff8523
     blue - #1fabe5
-    dark blue - #046c97
-*/
+    dark blue - #046c97*/
+
 *{
   box-sizing: border-box;
   font-family: Helvetica, Arial, sans-serif;
   line-height: 1.6em;
+
+
 }
   body{
     border: 1px solid #ffd24a;
@@ -41,6 +43,7 @@ nav a{
 }
 #page_content{
   margin-left: 20px;
+  margin-right: 20px;
 }
 h2 {
   color: #1fabe5;
@@ -58,14 +61,9 @@ section {
   border-top: 2px solid #dddddd;
   border-bottom: : 2px solid #dddddd;
 }
-.name {
-  border-radius: 5px;
-  background-color: #ff8523;
-  font-weight: bold;
-  color: white;
-  padding: 20px;
-}
+
 table {
+  width: 100%;
   border-collapse: collapse;
 }
 
@@ -79,16 +77,46 @@ thead tr td{
   background-color: #1fabe5;
   color: white;
 }
-img {
-  display: block;
-  width: 25%;
-  height: auto;
+table img {
+  width: 50px;
+  height: 50px;
 }
 form {
   background-color: #dddddd;
   border-radius: 5px;
   padding: 20px
 }
+
+#first_name{
+  margin-right: 30px;
+}
+.name > input {
+  height: 35px;
+  width: 250px;
+}
 .name {
-font-weight: bold;
+  border-radius: 5px;
+  background-color: #ff8523;
+  font-weight: bold;
+  color: white;
+  padding: 20px;
+  margin
+}
+.city_container{
+  font-size: 14px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.message_title{
+  font-weight: bold;
+}
+textarea{
+  width: 100%;
+}
+.submit_container input {
+  padding: 10px;
+  color: #ffffff;
+  border-radius: 5px;
+  border: none;
+  background-color: #1fabe5;
 }
